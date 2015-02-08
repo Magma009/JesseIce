@@ -36,7 +36,7 @@
                   </block>
                 </value>
                 <next>
-                  <block type="movement_right" id="33"></block>
+                  <block type="movement_right" id="10"></block>
                 </next>
               </block>
             </statement>
@@ -64,7 +64,7 @@
                   </block>
                 </value>
                 <next>
-                  <block type="movement_left" id="44"></block>
+                  <block type="movement_left" id="16"></block>
                 </next>
               </block>
             </statement>
@@ -96,6 +96,18 @@
                 </next>
               </block>
             </statement>
+            <statement name="ELSE">
+              <block type="movement_forward" id="33"></block>
+            </statement>
+            <next>
+              <block type="robot_delay" id="50" inline="true">
+                <value name="DELAY">
+                  <block type="math_number" id="63">
+                    <field name="NUM">100</field>
+                  </block>
+                </value>
+              </block>
+            </next>
           </block>
         </statement>
         <next>
