@@ -41,40 +41,40 @@
               </block>
             </statement>
             <value name="IF1">
-              <block type="logic_compare" id="218" inline="true">
+              <block type="logic_compare" id="11" inline="true">
                 <field name="OP">LT</field>
                 <value name="A">
-                  <block type="sensor_object" id="232">
+                  <block type="sensor_object" id="12">
                     <field name="OBJECT">RIGHTFRONT</field>
                   </block>
                 </value>
                 <value name="B">
-                  <block type="math_number" id="280">
+                  <block type="math_number" id="13">
                     <field name="NUM">40</field>
                   </block>
                 </value>
               </block>
             </value>
             <statement name="DO1">
-              <block type="led_select" id="310" inline="true">
+              <block type="led_select" id="14" inline="true">
                 <field name="ACTION">FLASH</field>
                 <value name="LED">
-                  <block type="math_number" id="388">
+                  <block type="math_number" id="15">
                     <field name="NUM">2</field>
                   </block>
                 </value>
                 <next>
-                  <block type="movement_left" id="399"></block>
+                  <block type="movement_left" id="16"></block>
                 </next>
               </block>
             </statement>
             <statement name="ELSE">
-              <block type="movement_forward" id="33"></block>
+              <block type="movement_forward" id="17"></block>
             </statement>
             <next>
-              <block type="robot_delay" id="50" inline="true">
+              <block type="robot_delay" id="18" inline="true">
                 <value name="DELAY">
-                  <block type="math_number" id="63">
+                  <block type="math_number" id="19">
                     <field name="NUM">100</field>
                   </block>
                 </value>
@@ -83,7 +83,7 @@
           </block>
         </statement>
         <next>
-          <block type="movement_stop" id="23"></block>
+          <block type="movement_stop" id="20"></block>
         </next>
       </block>
     </next>
